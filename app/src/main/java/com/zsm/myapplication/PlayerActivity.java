@@ -31,9 +31,7 @@ public class PlayerActivity extends AppCompatActivity {
         vitamio_videoview = (VideoView) findViewById(R.id.vitamio_videoview);
 
         //放入网址
-        vitamio_videoview.setVideoURI(Uri.parse("http://video.acfun.cn/0200400204000058BE3F2B0001000" +
-                "0C80000000000-0000-0000-014B-0ADF00000000.mp4?customer_id=5859fdaee4b0eaf5dd325b91" +
-                "&start=0.0&auth_key=1488907152-0-0-f9799ae0d4149427f8893a4c7ab1774b"));
+        vitamio_videoview.setVideoURI(Uri.parse("rtmp://xiaomingjiang.vicp.net:21188/oflaDemo/123.mp4"));
 
         //设置控制栏
         vitamio_videoview.setMediaController(new MediaController(this));
